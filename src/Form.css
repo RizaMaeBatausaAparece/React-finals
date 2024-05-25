@@ -1,0 +1,65 @@
+/* src/Form.css */
+
+/* Style for form container */
+.app-container {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #060202;
+  border-radius: 5px;
+}
+
+/* Style for form headings */
+.form-container h2 {
+  margin-bottom: 20px;
+}
+
+/* Style for form labels */
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Style for form input fields */
+.form-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Style for submit button */
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Style for output container */
+.output-container {
+  margin-top: 20px;
+}
+
+/* Style for submitted data */
+.submitted-data {
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Style for submitted data headings */
+.submitted-data h2 {
+  margin-bottom: 10px;
+}
